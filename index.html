@@ -1,0 +1,214 @@
+<html>
+   <head>
+    <meta charset="utf-8">
+    <meta http equiv="X ua compatible" content="if-edge">
+    <meta name="viewport" content="width-device-width,initial-scale-1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f607b7cd3.js" crossorigin="anonymous"></script>
+   </head> 
+   <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>                   
+                    <li> <a href="#about">About</a></li>                   
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>               
+                    <li> <a href="#contact">Contacts</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student
+                </p>
+                <h1>Hi, I'm <br><span>Dikesh Manandhar</span> <div class="r">from Kathmandu</div></h1>
+            </div>
+        </div>
+    </div>
+    <hr  width="100%" size="50px" color="white">
+    <!--about-->
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hello. I am an avid learner and on the same boat as you in this magical journey of life. Some sink while some remain afloat, but I am here to conquer.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Photoshop</span><br>Creating frkin insane level photos</li>
+                        <li><span>Studying</span><br>Smartest man on the planet</li>
+                        <li><span>Coding/AI</span><br>Better than AI</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>SEE</span><br>A+</li>
+                            <li><span>11</span><br>A+</li>
+                            <li><span>12</span><br>4.0</li>
+                        </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2008-2012</span><br>Harati Sikshya Mandir</li>
+                                <li><span>2013-2015</span><br>Shine Model School</li>
+                                <li><span>2016-2022</span><br>Swarnim School</li>
+                                <li><span>2022-Current</span><br>St. Xavier's College</li>
+                             </ul>
+                            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+        <h1 class="sub-title">My Services</h1>
+<div class="services-list">
+    <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Hello. I am an avid learner and on the same boat as you in this magical journey of life. Some sink while some remain afloat, but I am here to conquer.</p>
+<a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-brain"></i>  
+            <h2>Brain Design</h2>                      <p>Hello. I am an avid learner and on the same boat as you in this magical journey of life. Some sink while some remain afloat, but I am here to conquer.</p>
+    <a href="#">Learn more</a>
+            </div>
+
+    <div>
+        <i class="fa-solid fa-heart-pulse"></i>        <h2>Life Design</h2>
+        <p>Hello. I am an avid learner and on the same boat as you in this magical journey of life. Some sink while some remain afloat, but I am here to conquer.</p>
+<a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+ <div class="work-list">
+    <div class="work">
+        <img src="Images/w1.jpg">
+        <div class="layer">
+            <h3>Selfie</h3>
+            <p>How am I?</p>
+        </div>
+    </div>
+    <div class="work">
+        <img src="Images/w2.jpg">
+        <div class="layer">
+            <h3>Pose</h3>
+            <p>Look at the veins</p>
+        </div>
+    </div>
+    <div class="work">
+        <img src="Images/w3.jpg">
+        <div class="layer">
+            <h3>Masked</h3>
+            <p>Do you know me?</p>
+        </div>
+    </div>
+ </div>
+ <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+  <!-- -------------------contact---------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+<h1 class="sub-title">Contact Me</h1>
+<p><i class="fa-solid fa-paper-plane"></i>dikeshmanandhar13@gmail.com</p>
+<p><i class="fa-solid fa-phone-volume"></i>9866290872</p>
+<div class="social-icons">
+    <a href="https://www.facebook.com/dikesh.manandhar.37"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+
+</div>
+<a href="Images/Chemistry Project.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+            Copyright @ Dikesh.<i class="fa-solid fa-heart"></i> Don't you dare copy!
+        </p>
+    </div>
+</div>
+
+
+    
+    <script type="text/javascript">
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        
+            for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }    
+    </script>
+
+    <script>
+       var sidemenu= document.getElementById("sidemenu");
+       
+       function openmenu(){
+        sidemenu.style.right = "0";
+       }
+       function closemenu(){
+        sidemenu.style.right = "-150";
+       }
+       </script>
+       <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxURYNvwrP88CA6nWidXZoCC04decysn9NN2p6guKnTU1Y05JcqxKI_P066U_tZ6WEG/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+    setTimeout(function(){
+        msg.innerHTML = ""
+    };5000)
+form.reset()})
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+   </body>
+</html>
